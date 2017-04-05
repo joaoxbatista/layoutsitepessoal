@@ -1,0 +1,159 @@
+/*Cores utilizadas no site
+
+Cor do Texto 
+#34495e
+
+Cor de Fundo
+#ecf0f1
+
+Cor de Links e Conteúdo Importante
+#2ecc71
+
+Cor de Conteúdo Informatívo
+#555
+
+*/
+h1{
+	font-family: Pacifico;
+	cursor: pointer;
+	display: block;
+}
+
+p, ul, li, nav, a, span{
+	font-family: Slabo;
+}
+
+/*Estilos da página principal*/
+main{
+	padding: 20px 0px;
+	background: #ecf0f1;
+	color: #34495e;
+}
+
+main p{
+	font-size: 16px;
+	color: ;
+}
+
+main p strong{
+	color: #2ecc71;
+}
+
+main p span{
+	color: #555;
+	font-weight: bold;
+}
+
+main ul{
+	padding: 10px 20px;
+	list-style: none;
+	background: #333;
+	margin-top: -10px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+main ul li{
+	color:#f39c12;
+	padding-left: 10px;
+	margin-bottom: 6px;
+}
+
+main ul li a{
+	text-decoration: none;
+	color:#3498db;
+	font-weight: bold;
+}
+
+main ul li a::before{
+	content: " * ";
+}
+
+main ul li a:hover{
+	text-decoration: none;
+	color:#fff;
+	font-weight: bold;
+	text-shadow: 0px 0px 6px #2ecc71;
+	transition: .3s all;
+}
+main .projetos{
+	font-size: 16px;
+	padding-left: 20px;
+	font-weight: bold;
+	padding-bottom: 6px;
+
+	padding-right: 4px;
+	padding-top: 5px;
+	display: block;
+	background: #333;
+	color: #D81551;
+	margin-top: 15px;
+	
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+
+}
+
+main .projetos::before{
+	content: "> joaobatista@WEBSITE ";
+	color: #2ecc71 ;
+}
+
+main .redes-sociais{
+	font-size: 16px;
+	padding-left: 20px;
+	font-weight: bold;
+	padding-bottom: 6px;
+
+	padding-right: 4px;
+	padding-top: 5px;
+	display: block;
+	background: #333;
+	color: #D81551;
+	margin-top: 15px;
+	
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+main .redes-sociais::before{
+	content: "> joaobatista@WEBSITE ";
+	color: #2ecc71 ;
+}
+
+
+#sobre, #contatos, #conhecimentos{
+	margin-bottom: 80px;
+}
+
+#conhecimentos .with-bg{
+	margin-top: 60px;
+	min-height: 360px;
+	padding: 20px;
+	border-radius: 5px;
+	
+
+
+}
+
+.mini-box{
+	margin: 10px;
+	cursor: pointer;
+	width: 105px;
+	height: 105px;
+	border-radius: 6px;
+	float: right;
+	line-height: 110px;
+	text-align: center;
+	font-size: 20px;
+	border: 2px solid #3498db;
+	background: #fff;
+	color: #3498db;
+	font-family: Slabo;
+}
+
+
+.box{
+	opacity: 0;
+}
+
